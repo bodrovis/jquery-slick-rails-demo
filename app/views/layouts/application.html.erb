@@ -3,12 +3,14 @@
 <head>
   <meta charset="utf-8">
   <title>SlickDemo</title>
-  <%= stylesheet_link_tag    'application', media: 'all' %>
-  <%= javascript_include_tag 'application' %>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   <%= csrf_meta_tags %>
 </head>
 <body>
 
+<%= link_to 'Page with Slick', root_path %> |
+<%= link_to 'Some other page', new_page_path %>
 <%= yield %>
 
 </body>

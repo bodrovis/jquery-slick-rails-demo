@@ -1,6 +1,7 @@
 # jquery-rails-slick demo
 
-Simple Rails demonstrating how to use [jquery-slick-rails gem](https://github.com/bodrovis/jquery-slick-rails).
+Simple Rails app demonstrating how to use [jquery-slick-rails gem](https://github.com/bodrovis/jquery-slick-rails)
+(and how it works with Turbolinks).
 
 * Clone the repo
 * Install the gems (`bundle install`)
