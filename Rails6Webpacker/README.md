@@ -5,7 +5,7 @@ To use Slick carousel with Rails 6 and Webpacker, you basically don't require th
 * `yarn add jquery`
 * `yarn add slick-carousel`
 
-Then import and use them. Check `app/javascript/packs` and `app/javascript/styles` for an example.
+Then import and use them. Check [`app/javascript/packs`](https://github.com/bodrovis/jquery-slick-rails-demo/tree/master/Rails6Webpacker/app/javascript/packs) and [`app/javascript/styles`](https://github.com/bodrovis/jquery-slick-rails-demo/tree/master/Rails6Webpacker/app/javascript/styles) for an example.
 
 To run it locally:
 

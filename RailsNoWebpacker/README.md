@@ -1,6 +1,6 @@
 # Slick Carousel With Rails Gem
 
-Demonstrates how to integrate Slick carousel with [jquery-slick-rails gem](https://github.com/bodrovis/jquery-slick-rails). Also presents a potential solution to carousel not playing nicely with Turbolinks (check the `pages/index` view).
+Demonstrates how to integrate Slick carousel with [jquery-slick-rails gem](https://github.com/bodrovis/jquery-slick-rails). Also presents a potential solution to carousel not playing nicely with Turbolinks (check the [`pages/index` view](https://github.com/bodrovis/jquery-slick-rails-demo/blob/master/RailsNoWebpacker/app/views/pages/index.html.erb)).
 
 To run it locally:
 
