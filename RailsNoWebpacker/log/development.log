@@ -1,0 +1,58 @@
+Started GET "/" for ::1 at 2020-05-24 16:48:49 +0300
+  [1m[35m (4.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 4.2ms | Allocations: 363)
+Completed 500 Internal Server Error in 1097ms (ActiveRecord: 0.0ms | Allocations: 59372)
+
+
+  
+ActionView::Template::Error (Asset `application.js` was not declared to be precompiled in production.
+Declare links to your assets in `app/assets/config/manifest.js`.
+
+  //= link application.js
+and restart your server):
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag 'application', media: 'all', :'data-turbolinks-track' => 'reload' %>
+     9:     <%= javascript_include_tag 'application', :'data-turbolinks-track' => 'reload' %>
+    10:     <%= csrf_meta_tags %>
+    11:     <% if content_for?(:head) %>
+    12:       <%= yield(:head) %>
+  
+app/views/layouts/application.html.erb:9
+Started GET "/" for ::1 at 2020-05-24 16:49:14 +0300
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 12)
+Completed 200 OK in 151ms (Views: 149.9ms | ActiveRecord: 0.0ms | Allocations: 30617)
+
+
+Started GET "/" for ::1 at 2020-05-24 16:50:06 +0300
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 12)
+Completed 200 OK in 116ms (Views: 115.9ms | ActiveRecord: 0.0ms | Allocations: 14831)
+
+
+Started GET "/" for ::1 at 2020-05-24 16:50:21 +0300
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 12)
+Completed 200 OK in 554ms (Views: 553.8ms | ActiveRecord: 0.0ms | Allocations: 73606)
+
+
+Started GET "/pages/new" for ::1 at 2020-05-24 16:50:25 +0300
+Processing by PagesController#new as HTML
+  Rendering pages/new.html.erb within layouts/application
+  Rendered pages/new.html.erb within layouts/application (Duration: 0.5ms | Allocations: 88)
+Completed 200 OK in 49ms (Views: 46.6ms | ActiveRecord: 0.0ms | Allocations: 15354)
+
+
+Started GET "/" for ::1 at 2020-05-24 16:50:26 +0300
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 11)
+Completed 200 OK in 48ms (Views: 47.1ms | ActiveRecord: 0.0ms | Allocations: 15157)
+
+

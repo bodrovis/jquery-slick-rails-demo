@@ -1,15 +1,12 @@
-# jquery-rails-slick demo
+# JqueryRailsSlick Demo Apps
 
-Simple Rails app demonstrating how to use [jquery-slick-rails gem](https://github.com/bodrovis/jquery-slick-rails)
-(and how it works with Turbolinks).
+Simple Rails apps demonstrating how to use [Slick carousel](https://kenwheeler.github.io/slick/).
 
-* Clone the repo
-* Install the gems (`bundle install`)
-* Boot the server (`$ rails s`)
-* Navigate to `http://127.0.0.1:3000`
+* Rails6Webpacker — shows how to use Slick with Webpacker and Rails 6.
+* RailsNoWebpacker — shows how to integrate Slick with [jquery-slick-rails gem](https://github.com/bodrovis/jquery-slick-rails) and how it works with Turbolinks.
 
 ## License
 
 Licensed under the [MIT License](https://github.com/bodrovis/jquery-slick-rails-demo/blob/master/LICENSE.txt).
 
-Copyright (c) 2015 [Ilya Bodrov](http://bodrovis.tech)
+Copyright (c) [Ilya Bodrov](http://bodrovis.tech)
